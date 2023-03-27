@@ -1,0 +1,37 @@
+.loginContainer{
+    height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #9900ff, #cc80ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginOuterBox{
+  min-width: 480px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.inputBox{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+.loginHead{
+    margin: 0;
+}
+.submitButton{
+    padding: 10px;
+    border-radius: 5px;
+    background: #4e96f4;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
